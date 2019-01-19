@@ -1,19 +1,24 @@
-html{
+html {
     background: #714cfe;
     font-family: Verdana, sans-serif;
     color: #ffffff;
+    overflow: hidden;
 }
 
-header{
+header {
     text-align: center;
     min-width: 500px;
 }
 
-nav{
-    padding-top: 15px;
+h2 {
+    padding-top: 10px;
 }
 
-nav a:link{
+nav {
+    padding: 10px;
+}
+
+nav a:link {
     text-transform: uppercase;
     text-decoration: none;
 
@@ -23,11 +28,11 @@ nav li {
     display: inline-block;
     list-style-type: none;
     text-align: center;
-    border-radius: 10px ;
+    border-radius: 10px;
     padding: 5px 20px 5px 5px;
 }
 
-.button{
+.button {
     position: relative;
     display: inline-block;
     background: #ffc77d;
@@ -53,30 +58,48 @@ nav li {
     transition: background-color .3s;
 }
 
-.button:hover, .button:focus{
+.button:hover, .button:focus {
     color: #ffffff;
 }
 
-section{
-    display: grid;
+section .container{
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    height: 500px;
+    grid-auto-columns: auto;
     grid-template-columns: 50%;
     grid-gap: 20px;
-    margin-top: 30px;
+    column-gap: normal;
+    overflow: auto;
+    text-align: center;
     align-content: center;
-    align-items: stretch;
     justify-content: center;
     justify-items: center;
-}
+    clear: both;
 
-.text{
-
-}
-
-.image{
 
 }
 
+.text {
+    float: left;
+    margin: 0 1.5%;
+    width: 60%;
+    background: #eaeaed;;
+    color: #000;
+    border-radius: 6px;
+}
 
-footer{
+.image {
+    float: right;
+    margin: 0 20px;
+    width: 30%;
+    padding-right: 20px;
+
+}
+
+
+footer {
+    margin-bottom: 0;
     text-align: end;
 }
