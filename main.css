@@ -88,6 +88,7 @@ section .container{
     background: #eaeaed;;
     color: #000;
     border-radius: 6px;
+    padding: 10px;
 }
 
 .image {
@@ -102,4 +103,5 @@ section .container{
 footer {
     margin-bottom: 0;
     text-align: end;
+    ali
 }
