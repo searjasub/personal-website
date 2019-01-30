@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="main2.css" rel="stylesheet"/>
     <title>Favorite Sites</title>
 </head>
 <header>
@@ -8,20 +9,19 @@
     <h2>Main Menu</h2>
     <nav>
         <ul>
-            <li><a href='index.html'>Home</a></li>
-            <li><a href='interests.html'>My Interests</a></li>
-            <li><a href='favorite-sites.html'>My Favorites</a></li>
-            <li><a href='future-plans.html'>Future Plans</a></li>
+            <li><a class="button" href='index.html' type="btn">Home</a></li>
+            <li><a class="button" href='interests.html' type="btn">My Interests</a></li>
+            <li><a class="button" href='favorite-sites.html' type="btn">My Favorites</a></li>
+            <li><a class="button" href='future-plans.html' type="btn">Future Plans</a></li>
         </ul>
     </nav>
 </header>
 <body>
-<section>
+
+<section class="text">
     <p>
         <strong>List of my favorite sites</strong>
     </p>
-</section>
-<section>
     <ol>
         <li><a href="https://projectstream.google.com" target="_blank">Project Stream</a></li>
         <li><a href="https://diaroapp.com/" target="_blank">Diario.com</a></li>
@@ -31,7 +31,7 @@
 </section>
 
 <section>
-    <p>
+    <p class="text">
         I picked Project Stream since to be my top because I'm able to play a game that I don'y have install on my
         computer
         <br>I am part of the beta tester of Assassins Creed Odyssey in Project Stream.
@@ -41,7 +41,9 @@
         <br>Last but not least, Pluralsight. I like how the content and the website is made. How you can take paths and
         also show your experience with skills.
     </p>
-    <img src="images/ACOdyssey_Logo.gif"/>
+    <div class="image">
+        <img src="images/ACOdyssey_Logo.gif"/>
+    </div>
 </section>
 </body>
 <footer><q>Copyright 2018 by Searjasub Lopez</q></footer>
