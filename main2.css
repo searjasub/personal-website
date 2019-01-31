@@ -11,7 +11,7 @@ header {
     width: 600px;
     background: #eaeaed;
     text-align: center;
-    margin: 40px auto;
+    margin: 40px 350px;
     border-radius: 6px;
     padding: 18px;
 }
@@ -143,9 +143,10 @@ tr {
 }
 
 .image {
-    /*width: 360px;*/
-    /*height: 640px;*/
+    width: 360px;
+    height: 640px;
     text-align: center;
     display: inline;
+
 }
 
